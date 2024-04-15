@@ -1,0 +1,330 @@
+/* CSS RESET
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Original CSS start  */
+
+/* body全体に以下のフォントを読み込み  */
+body{
+  font-family: heisei-kaku-gothic-stdn, sans-serif;
+font-style: normal;
+}
+
+
+
+@media screen and (min-width:320px) and ( max-width:520px) { 
+  /*画面サイズが320pxからはここを読み込む*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.6vw;
+  margin-top: auto;
+  margin-bottom: 0%;
+  display: block;
+}
+
+/*Main*/
+img{
+  width:100%;
+}
+.title, .credit, .concept{
+  text-align: center;
+}
+.title{
+  font-size: 6vw;
+  font-weight: 600;
+  margin-top: 4.8vw;
+  line-height: 1.75em;
+}
+.credit{
+  font-size: 3.5vw;
+  letter-spacing: 0.04em;
+  line-height: 1.5em;
+  margin: 2vw 12vw 4vw;
+}
+.concept{
+  font-size: 3vw;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+  margin:0 8vw;
+  text-align: justify;
+}
+
+/*MainEnd*/
+
+/*Buttons*/
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 3.5vw;
+  color: #33333D;
+}
+.button-prev{
+  margin-right: 4vw;
+  visibility: hidden;
+}
+.button-next{
+  margin-left: 4vw;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 6vw 0 4vw 0;
+}
+/*ButtonsEnd*/
+
+}
+
+
+@media screen and (min-width:521px) and ( max-width:959px) {
+  /*画面サイズが520pxから960pxまではここを読み込む*/
+ 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.6vw;
+  margin-top: auto;
+  margin-bottom: 0%;
+  display: block;
+}
+
+/*Main*/
+img{
+  width: 100%;
+}
+.image{
+  margin:0 11vw;
+}
+
+.title, .credit, .concept{
+  text-align: center;
+}
+.title{
+  font-weight: 600;
+  font-size: 2.6vw;
+  line-height: 1.5em;
+  color: #33333d;
+  margin-top: 7vw;
+}
+.credit{
+  font-weight: 100;
+  color: #33333d; 
+  letter-spacing: 0.12em;
+  line-height: 2.1em;
+  font-size: 1.8vw;
+  margin: 2vw 18vw;
+}
+.concept{
+  font-weight: 100;
+  color: #33333d; 
+  letter-spacing: 0.12em;
+  line-height: 2.1em;
+  font-size: 1.5vw;
+  margin: 5vw 14.4vw;
+  text-align: justify;
+}
+
+/*MainEnd*/
+
+
+/*Buttons*/
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: #33333D;
+}
+.button-prev{
+  margin-right: 14vw;
+  visibility: hidden;
+}
+.button-next{
+  margin-left: 14vw;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 4.3vw 0 3.6vw 0;
+}
+/*ButtonsEnd*/
+
+}
+
+
+@media screen and (min-width:960px) {
+  /*画面サイズが960pxからはここを読み込む*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.6vw;
+  margin-top: auto;
+  margin-bottom: 0%;
+  display: block;
+}
+
+/*Main*/
+img{
+  width: 100%;
+}
+.image{
+  margin:0 11vw;
+}
+
+.title, .credit, .concept{
+  text-align: center;
+}
+.title{
+  font-weight: 600;
+  font-size: 2.6vw;
+  line-height: 1.5em;
+  color: #33333d;
+  margin-top: 7vw;
+}
+.credit{
+  font-weight: 100;
+  color: #33333d; 
+  letter-spacing: 0.12em;
+  line-height: 2.1em;
+  font-size: 1.8vw;
+  margin: 2vw 18vw;
+}
+.concept{
+  font-weight: 100;
+  color: #33333d; 
+  letter-spacing: 0.12em;
+  line-height: 2.1em;
+  font-size: 1.5vw;
+  margin: 5vw 14.4vw;
+  text-align: justify;
+}
+
+/*MainEnd*/
+
+
+/*Buttons*/
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: #33333D;
+}
+.button-prev{
+  margin-right: 14vw;
+  visibility: hidden;
+}
+.button-next{
+  margin-left: 14vw;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 4.3vw 0 3.6vw 0;
+}
+/*ButtonsEnd*/
+
+}

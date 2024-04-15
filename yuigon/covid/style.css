@@ -1,0 +1,265 @@
+/* CSS RESET
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Original CSS start  */
+
+/* body全体に以下のフォントを読み込み  */
+body{
+  font-family: heisei-kaku-gothic-stdn, sans-serif;
+font-style: normal;
+}
+
+
+@media screen and (min-width:320px) and ( max-width:520px) { 
+  /*画面サイズが320pxからはここを読み込む*/
+
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  margin-bottom: 0%;
+  display: block;
+  font-weight: 400;
+  font-size: 1.6vw;
+}
+
+/* list-styleのリセット */
+.ul{
+	margin: 1em 0;
+	padding-left: 2.8vw;
+	list-style-type: disc;
+}
+/* Main */
+h2{
+  font-weight: 300;
+  font-size: 6vw;
+  color: #33333d; 
+  margin-left: 6vw;
+  margin-top: 8vw;
+  padding: 0.2em 0;
+}
+.info, li{
+  font-weight: 100;
+  font-size: 3vw;
+  color: #33333d; 
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+}
+.info{
+  margin: 0 6vw;
+  padding-top: 8.3vw;
+}
+.list{
+  margin: 1.7vw 6vw;
+}
+.info p{
+  margin: 6vw 0;
+}
+/* MainEnd */
+
+/* Button */
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 4vw;
+  color: #33333D;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 4vw auto;
+}
+/* ButtonEnd */
+
+}
+
+
+@media screen and (min-width:521px) and ( max-width:959px) {
+  /*画面サイズが520pxから960pxまではここを読み込む*/
+ 
+footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  margin-bottom: 0%;
+  display: block;
+  font-weight: 400;
+  font-size: 1.6vw;
+}
+/* list-styleのリセット */
+.ul{
+	margin: 1em 0;
+	padding-left: 2.8vw;
+	list-style-type: disc;
+}
+/* Main */
+h2{
+  font-weight: 300;
+  font-size: 3.6vw;
+  color: #33333d; 
+  margin-left: 12vw;
+  margin-top: 3.6vw;
+  padding: 0.2em 0;
+}
+.info, li{
+  font-weight: 100;
+  font-size: 1.5vw;
+  color: #33333d; 
+  letter-spacing: 0.06em;
+  line-height: 1.8em;
+}
+.info{
+  margin: 0 12vw;
+  padding-top: 8.3vw;
+}
+.list{
+  margin: 1.7vw 10.7vw;
+}
+/* MainEnd */
+
+/* Button */
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 2.2vw;
+  color: #33333D;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 4vw auto;
+}
+/* ButtonEnd */
+
+}
+
+
+@media screen and (min-width:960px) {
+  /*画面サイズが960pxからはここを読み込む*/
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #221517;
+  color: #ffffff;
+  margin-bottom: 0%;
+  display: block;
+  font-weight: 400;
+  font-size: 1.6vw;
+}
+
+/* list-styleのリセット */
+.ul{
+	margin: 1em 0;
+	padding-left: 2.8vw;
+	list-style-type: disc;
+}
+/* Main */
+h2{
+  font-weight: 300;
+  font-size: 3.6vw;
+  color: #33333d; 
+  margin-left: 12vw;
+  margin-top: 3.6vw;
+  padding: 0.2em 0;
+}
+.info, li{
+  font-weight: 100;
+  font-size: 1.5vw;
+  color: #33333d; 
+  letter-spacing: 0.06em;
+  line-height: 1.8em;
+}
+.info{
+  margin: 0 12vw;
+  padding-top: 8.3vw;
+}
+.list{
+  margin: 1.7vw 10.7vw;
+}
+/* MainEnd */
+
+/* Button */
+.button{
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 2.2vw;
+  color: #33333D;
+}
+.button:hover{
+  color:#f28079;
+}
+.inline-block{
+  display: inline-block;
+}
+.area{
+  text-align: center;
+  margin: 4vw auto;
+}
+/* ButtonEnd */
+
+}
+
